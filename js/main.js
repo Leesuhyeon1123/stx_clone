@@ -20,12 +20,12 @@ window.onload = function () {
     }
   }
   // go top 버튼-> 맨 위 영역으로 부드럽게 이동
-const topBtn = document.querySelector(".top-btn")
-topBtn.addEventListener("click", function(event){
-    event.preventDefault()
+  const topBtn = document.querySelector(".top-btn");
+  topBtn.addEventListener("click", function (event) {
+    event.preventDefault();
     window.scrollTo({
-        top:0 ,
-        behavior: "smooth",
-    })
-})
+      top: 0,
+      behavior: "smooth",
+    });
+  });
 };
